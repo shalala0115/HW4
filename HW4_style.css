@@ -1,0 +1,93 @@
+/*page1*/
+.progress-bar{
+    width: 200px;
+    height: 20px;
+    border: 1px #333 solid;
+}
+
+.progress-bar .inner {
+    width: 0;
+    background-color: #555;
+    height: 100%;
+}
+
+/*page2*/
+
+.typeahead-container {
+	width: 200px;
+}
+.typeahead-container input {
+	width: 100%;
+	height: 30px;
+	font-size: 15px;
+}
+.typeahead-container .options {
+	width: 100%;
+}
+.typeahead-container .options div {
+	height: 30px;
+	display: flex;
+	align-items: center;
+	padding-left: 3px;
+	border: 1px solid #ccc;
+	border-top: none;
+	width: 100%;
+	cursor: pointer;
+}
+.typeahead-container .options div:hover,
+.typeahead-container .options div.selected {
+	text-decoration: underline;
+	background-color: #ddd;
+}
+
+
+/*page3*/
+.title {
+	margin-bottom: 5px;
+}
+
+.Autocpmplete {
+	width: 200px;
+	height: 20px;
+	position: relative;
+}
+.Auto {
+	width: 200px;
+	height: 30px;
+}
+
+.Autocomplete .options {
+	width: 204px;
+	max-height: 300px;
+	position: absolute;
+	top: 27px;
+	left: 0;
+	border: #ccc solid 1px;
+	display: none;
+}
+
+/*page4*/
+
+.grid .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid {
+    flex-direction: column;
+}
+
+.grid > div {
+    display: flex;
+}
+
+.game-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
